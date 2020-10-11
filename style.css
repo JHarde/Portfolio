@@ -1,0 +1,533 @@
+body {
+  margin: 0;
+  box-sizing: content-box;
+  width: 100%;
+}
+
+h1,
+h2 {
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+h3,
+h4,
+h5 {
+  font-family: "Roboto";
+  font-weight: bold;
+}
+
+p {
+  font-family: "Montserrat";
+}
+
+a {
+}
+h2 {
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-size: 17px;
+  text-transform: uppercase;
+}
+.more-thoughts-text p {
+  font-family: "Roboto";
+  font-weight: bold;
+}
+
+.text-span,
+a {
+  color: #f9ab49;
+}
+
+.main-container {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+header {
+  background-image: url("./assets/background-image.jpg");
+  background-size: cover;
+}
+
+.button-box {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 50px;
+  padding-right: 25px;
+}
+
+button {
+  border: 3px solid #ffffff;
+  border-radius: 50%;
+  width: 39px;
+  height: 39px;
+  opacity: 1;
+  background-color: transparent;
+  margin: 5px;
+}
+
+.header-text {
+  display: flex;
+  flex-flow: column-reverse;
+  color: white;
+  margin-left: 41px;
+  margin: 0;
+  padding-left: 20px;
+}
+
+.header-text h1 {
+  font-size: 40px;
+}
+
+.header-portfolio,
+.header-text h3 {
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+.header-picture {
+  width: 162px;
+  height: 162px;
+  background: transparent url("img/slack-imgs-1.png") 0% 0% no-repeat
+    padding-box;
+  border: 3px solid #ffffff;
+  opacity: 1;
+  border-radius: 50%;
+  bottom: -40px;
+  margin-left: 140px;
+}
+.subtitle {
+  order: -2;
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 24px;
+  text-transform: lowercase;
+}
+
+.header-logo {
+  width: 162px;
+  height: 162px;
+  border-radius: 50%;
+  border: 3px solid #ffffff;
+  margin-left: 120px;
+}
+
+.info-box {
+  background: #f4f4f4 0% 0% no-repeat padding-box;
+  opacity: 1;
+  margin-top: 0;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+.info-text {
+  font-size: 17px;
+  text-align: left;
+  margin-left: 36px;
+  margin-right: 36px;
+}
+
+.info-symbol {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  float: left;
+  shape-outside: inset(0px 0px 0px 0px);
+  width: 50px;
+  height: 17px;
+  margin-right: 10px;
+}
+
+.line {
+  width: 40px;
+  height: 3px;
+  background-color: #f9ab49;
+  border-radius: 5px;
+}
+
+.circle {
+  width: 12px;
+  height: 12px;
+  margin-left: -2px;
+  background-color: #f9ab49;
+  border-radius: 50%;
+}
+
+.tech-box {
+  background: #f9ab49 0% 0% no-repeat padding-box;
+  text-align: center;
+  color: #ffffff;
+  width: 82px;
+  height: 33px;
+  margin: 0 auto;
+}
+
+.tech-text {
+  text-align: center;
+  font-size: 17px;
+  margin: 36px;
+  padding-top: 25px;
+  display: flex;
+  margin: auto;
+  width: 65%;
+}
+
+.project-text p,
+h4 {
+  display: contents;
+  margin: 0;
+}
+
+.project-text h4 {
+  font-size: 17px;
+  color: #f9ab49;
+}
+
+.project-text p {
+  font-family: "Roboto";
+  font-size: 17px;
+}
+.project {
+  margin: auto 0;
+  display: inline-grid;
+  justify-items: center;
+}
+.featured-projects {
+  background: #f4f4f4 0% 0% no-repeat padding-box;
+  opacity: 1;
+  display: grid;
+  grid-column-gap: 0px;
+  grid-row-gap: 42px;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.featured-projects-box {
+  background: #f9ab49 0% 0% no-repeat padding-box;
+  text-align: center;
+  color: white;
+  width: 269px;
+  height: 33px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  width: 320px;
+}
+
+.project-text,
+.other-project-text,
+.more-thoughts-text,
+.my-thoughts-text {
+  margin-left: 36px;
+  margin-right: 36px;
+}
+
+.tech-block-container {
+  display: flex;
+  justify-self: flex-start;
+  margin-left: 36px;
+  margin-bottom: 30px;
+  margin-top: 5px;
+}
+
+.tech-block {
+  background-color: #f9ab49;
+  width: 51px;
+  height: 17px;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: #ffffff;
+  border: 1px solid #f9ab49;
+  font-family: "Roboto";
+  font-size: 9px;
+  align-items: center;
+  justify-content: center;
+}
+
+.featured-projects-img {
+  width: 301px;
+  margin-bottom: 20px;
+}
+
+.project-link {
+  color: #f9ab49;
+  text-decoration: underline;
+}
+
+.other-projects {
+  background: #f4f4f4 0% 0% no-repeat padding-box;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.other-project-text h4 {
+  font-size: 17px;
+  color: #f9ab49;
+}
+
+.other-project-text p {
+  font-family: "Roboto";
+  font-size: 17px;
+  margin: 0;
+  display: contents;
+}
+
+.other-projects-box {
+  text-align: center;
+  margin: 0 auto;
+  color: #f9ab49;
+}
+
+.my-thougths-box {
+  background: #f9ab49 0% 0% no-repeat padding-box;
+  text-align: center;
+  color: white;
+  width: 188px;
+  height: 33px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.my-thoughts-img {
+  width: 301px;
+  height: 205px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.my-thoughts-text h5 {
+  margin: 0;
+  padding-top: 30px;
+  font-size: 25px;
+  text-transform: uppercase;
+  color: #f9ab49;
+}
+.my-thoughts-text p {
+  margin: 0;
+}
+
+.my-thoughts-text a {
+  font-size: large;
+}
+.thought {
+  display: flex;
+  flex-flow: column;
+  width: 500px;
+  margin: auto;
+}
+
+.more-thoughts-box {
+  text-align: center;
+  margin: 0 auto;
+  color: #f9ab49;
+}
+
+.skills {
+  background: #f4f4f4 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.skills,
+ul {
+  list-style-type: none;
+  font-size: 17px;
+}
+
+.skills-box {
+  background: #f9ab49 0% 0% no-repeat padding-box;
+  text-align: center;
+  color: white;
+  width: 98px;
+  height: 33px;
+  margin: 0 auto;
+}
+
+.skills-text {
+  display: flex;
+  flex-direction: row;
+  color: #f9ab49;
+  padding: 0;
+}
+
+.skills-text h3 {
+  font-size: 17px;
+  text-transform: uppercase;
+}
+
+.for-more-box {
+  background: #f9ab49 0% 0% no-repeat padding-box;
+  text-align: center;
+  color: white;
+  width: 131px;
+  height: 33px;
+  margin: 0 auto;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.for-more-buttons {
+  width: 59px;
+  height: 58px;
+  border-radius: 50%;
+  border: 3px solid #f9ab49;
+  opacity: 1;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+footer {
+  height: 270px;
+  background-color: #f9ab49;
+  opacity: 1;
+}
+
+.footer-text {
+  color: white;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.footer-text h4 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 21px;
+  text-transform: uppercase;
+}
+
+.footer-name {
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.footer-info {
+  font-family: "Roboto";
+  font-size: 17px;
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  p {
+    font-size: 30px;
+  }
+  .header-text h1 {
+    font-size: 82px;
+  }
+  .header-text h3 {
+    font-size: 28px;
+  }
+  h2 {
+    font-size: 48px;
+  }
+  h4 {
+    font-size: 25px;
+  }
+  .info-text {
+    margin-left: 416px;
+    margin-right: 416px;
+  }
+  .tech-box {
+    width: 161px;
+    height: 64px;
+  }
+  .featured-projects-box {
+    width: 575px;
+    height: 70px;
+  }
+  .featured-projects-img,
+  .my-thoughts-img {
+    width: 501px;
+    height: auto;
+  }
+
+  .featured-projects {
+    grid-template-columns: 550px 550px;
+  }
+  .other-projects-box {
+    font-size: 38px;
+  }
+  .my-thougths-box {
+    width: 768px;
+    height: 64px;
+  }
+  .skills-box {
+    width: 197px;
+    height: 64px;
+  }
+  .for-more-box {
+    width: 306px;
+    height: 64px;
+  }
+  .for-more-buttons {
+    width: 160px;
+    height: 160px;
+  }
+  .for-more-buttons img {
+    width: 55px;
+    height: 55px;
+  }
+  .skills-text {
+    justify-content: center;
+    padding-bottom: 150px;
+    padding-top: 70px;
+  }
+  .skills-text h3 {
+    font-size: 25px;
+  }
+  li {
+    font-size: 25px;
+  }
+  .footer-text h4 {
+    font-size: 38px;
+  }
+  .footer-name {
+    font-size: 30px;
+  }
+
+  .footer-info {
+    font-size: 30px;
+  }
+  button {
+    width: 80px;
+    height: 80px;
+  }
+  button img {
+    width: 30px;
+    height: 30px;
+  }
+  .header-logo {
+    width: 333px;
+    height: 333px;
+  }
+  .my-thoughts-text {
+    margin: auto;
+    display: contents;
+  }
+  .featured-projects-img:hover {
+    color: black;
+    opacity: 1;
+  }
+  .more-thoughts-text {
+    margin-left: 416px;
+    margin-right: 416px;
+  }
+  .project-text p {
+    font-size: 25px;
+  }
+  .project-text h4 {
+    font-size: 25px;
+  }
+  .other-project-text p {
+    font-size: 25px;
+  }
+  .other-project-text h4 {
+    font-size: 25px;
+  }
+}
