@@ -269,10 +269,7 @@ h4 {
   margin-bottom: 20px;
 }
 
-/* .project-link {
-  color: #f9ab49;
-  text-decoration: underline;
-} */
+
 #other-thoughts {
   padding: 10px;
 }
@@ -355,6 +352,7 @@ ul {
   color: #f9ab49;
   padding: 0;
   text-align: center;
+  justify-content: center;
 }
 
 .skills-text h3 {
@@ -440,6 +438,29 @@ footer {
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
 
+/* 
+  .featured-projects-img:hover {
+  background: black;
+  opacity: 40%;
+  
+} */
+
+.project-hover{
+  position: relative;
+    top: 150px;
+    color: white;
+    font-size: 30px;
+    background: black;
+    font-family: "Montserrat";
+  font-weight: bold;
+  display: none;
+}
+
+/* .project-hover:hover{
+  display: flex;
+  color: #f9ab49;
+} */
+
   .header-logo img {
     width: 333px;
     height: 333px;
@@ -480,6 +501,12 @@ footer {
     display: grid;
     grid-template-columns: 550px 550px;
     justify-content: center;
+  }
+
+  .tech-block {
+    font-size: 15px;
+    width: fit-content;
+    padding: 5px;
   }
 
   .box {
@@ -534,10 +561,6 @@ footer {
     height: 333px;
   } */
 
-  .featured-projects-img:hover {
-    color: black;
-    opacity: 1;
-  }
   .more-thoughts-text {
     margin-top: 110px;
     margin-bottom: 50px;
@@ -560,3 +583,4 @@ footer {
     padding-right: 275px;
   }
 }
+
