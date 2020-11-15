@@ -15,6 +15,7 @@ h2 {
   font-weight: bold;
   margin: 0;
 }
+
 h3,
 h4,
 h5 {
@@ -39,6 +40,7 @@ h4 {
   font-size: 17px;
   text-transform: uppercase;
 }
+
 .more-thoughts-text p {
   font-family: "Roboto";
 }
@@ -78,16 +80,17 @@ button {
   background-color: transparent;
   margin: 5px;
 }
+
 .other-project-text,
 .more-thought {
   text-decoration: underline;
 }
+
 .header-text {
   display: flex;
   flex-flow: column-reverse;
   color: white;
   margin-left: 49px;
-
   width: 400px;
 }
 
@@ -113,6 +116,7 @@ button {
   bottom: -40px;
   margin-left: 140px;
 }
+
 .subtitle {
   order: -2;
   font-family: "Montserrat";
@@ -197,12 +201,14 @@ h4 {
   font-family: "Roboto";
   font-size: 17px;
 }
+
 .project {
   margin: auto 0;
   display: inline-grid;
   justify-items: center;
   width: 350px;
 }
+
 .featured-projects {
   background: #f4f4f4 0% 0% no-repeat padding-box;
   opacity: 1;
@@ -250,10 +256,13 @@ h4 {
 
 .project-text,
 .other-project-text,
-.more-thoughts-text,
-.my-thoughts-text {
+.more-thoughts-text {
   margin-left: 25px;
-  margin-right: 25px;
+  margin-bottom: 25px;
+}
+
+.my-thoughts-text {
+  margin-left: 75px;
 }
 
 .tech-block-container {
@@ -269,10 +278,10 @@ h4 {
   margin-bottom: 20px;
 }
 
-
 #other-thoughts {
   padding: 10px;
 }
+
 .other-projects,
 .more {
   background: #f4f4f4 0% 0% no-repeat padding-box;
@@ -282,6 +291,7 @@ h4 {
   padding-top: 140px;
   padding-bottom: 140px;
 }
+
 .more-thoughts {
   display: flex;
   justify-content: center;
@@ -308,20 +318,17 @@ h4 {
 }
 
 .my-thougths-text {
-  margin-left: 30px;
   display: block;
 }
 
 .my-thoughts-text h5 {
-  margin: 0;
+  margin-bottom: 0;
   padding-top: 30px;
   font-size: 25px;
   text-transform: uppercase;
   color: #f9ab49;
 }
-.my-thoughts-text p {
-  margin: 0;
-}
+
 
 .my-thoughts-text a {
   font-size: large;
@@ -404,6 +411,7 @@ footer {
   font-family: "Roboto";
   font-size: 17px;
 }
+
 @media only screen and (min-width: 636px) {
 
   .header-logo img {
@@ -418,14 +426,18 @@ footer {
     grid-template-columns: 350px 350px;
     justify-content: center;
   }
+
   .other-projects,
   .more {
     padding-top: 140px;
     padding-bottom: 140px;
   }
+
   .more-thoughts-container {
     padding: 50px;
+    margin-top: 25px;
   }
+
   .skills-text {
     justify-content: center;
   }
@@ -439,21 +451,16 @@ footer {
 @media only screen and (min-width: 992px) {
 
 
-.project-hover{
-  position: relative;
-  top: 150px;
-  color: white;
-  font-size: 30px;
-  background: black;
-  font-family: "Montserrat";
-  font-weight: bold;
-  display: none;
-}
-
-/* .project-hover:hover{
-  display: flex;
-  color: #f9ab49;
-} */
+  .project-hover {
+    position: relative;
+    top: 150px;
+    color: white;
+    font-size: 30px;
+    background: black;
+    font-family: "Montserrat";
+    font-weight: bold;
+    display: none;
+  }
 
   .header-logo img {
     width: 333px;
@@ -465,15 +472,19 @@ footer {
     font-family: "Montserrat";
     font-size: 25px;
   }
+
   .header-text h1 {
     font-size: 82px;
   }
+
   .header-text h3 {
     font-size: 28px;
   }
+
   h2 {
     font-size: 48px;
   }
+
   h4 {
     font-size: 25px;
   }
@@ -490,6 +501,7 @@ footer {
     width: 501px;
     height: auto;
   }
+
   .my-thougths,
   .featured-projects {
     display: grid;
@@ -514,24 +526,30 @@ footer {
     height: 160px;
     margin: 20px;
   }
+
   .for-more-buttons img {
     width: 55px;
     height: 55px;
   }
+
   .skills-text {
     justify-content: center;
     padding-bottom: 150px;
     padding-top: 70px;
   }
+
   .skills-text h3 {
     font-size: 25px;
   }
+
   li {
     font-size: 25px;
   }
+
   .footer-text h4 {
     font-size: 38px;
   }
+
   .footer-name {
     font-size: 30px;
   }
@@ -539,13 +557,16 @@ footer {
   .footer-info {
     font-size: 30px;
   }
+
   .header-text {
     margin-left: 140px;
   }
+
   button {
     width: 80px;
     height: 80px;
   }
+
   button img {
     width: 30px;
     height: 30px;
@@ -557,34 +578,42 @@ footer {
     margin-top: 5px;
 }
 
+  .project-text {
+    margin-left: 0px;
+  }
+
+  .other-project-text,
+  .more-thoughts-text,
+  .my-thoughts-text {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+
   .more-thoughts-text {
     margin-top: 110px;
     margin-bottom: 50px;
     margin-left: 416px;
     margin-right: 416px;
   }
+
   .project-text p {
     font-size: 25px;
   }
+
   .project-text h4 {
     font-size: 25px;
   }
+
   .other-project-text p {
     font-size: 25px;
   }
+
   .other-project-text h4 {
     font-size: 25px;
   }
+
   .button-box {
     padding-right: 275px;
-  }
-
-  .project-text,
-  .other-project-text,
-  .more-thoughts-text,
-  .my-thoughts-text {
-    margin-left: 0px;
-    margin-right: 0px;
   }
 }
 
