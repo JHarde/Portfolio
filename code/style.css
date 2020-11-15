@@ -252,14 +252,14 @@ h4 {
 .other-project-text,
 .more-thoughts-text,
 .my-thoughts-text {
-  margin-left: 36px;
-  margin-right: 36px;
+  margin-left: 25px;
+  margin-right: 25px;
 }
 
 .tech-block-container {
   display: flex;
   justify-self: flex-start;
-  margin-left: 36px;
+  margin-left: 25px;
   margin-bottom: 30px;
   margin-top: 5px;
 }
@@ -438,20 +438,14 @@ footer {
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
 
-/* 
-  .featured-projects-img:hover {
-  background: black;
-  opacity: 40%;
-  
-} */
 
 .project-hover{
   position: relative;
-    top: 150px;
-    color: white;
-    font-size: 30px;
-    background: black;
-    font-family: "Montserrat";
+  top: 150px;
+  color: white;
+  font-size: 30px;
+  background: black;
+  font-family: "Montserrat";
   font-weight: bold;
   display: none;
 }
@@ -556,10 +550,12 @@ footer {
     width: 30px;
     height: 30px;
   }
-  /* .header-logo {
-    width: 333px;
-    height: 333px;
-  } */
+  
+  .tech-block-container {
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
 
   .more-thoughts-text {
     margin-top: 110px;
@@ -581,6 +577,14 @@ footer {
   }
   .button-box {
     padding-right: 275px;
+  }
+
+  .project-text,
+  .other-project-text,
+  .more-thoughts-text,
+  .my-thoughts-text {
+    margin-left: 0px;
+    margin-right: 0px;
   }
 }
 
